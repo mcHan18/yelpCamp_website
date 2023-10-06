@@ -1,9 +1,7 @@
 if (process.env.NODE_ENV !== "production") {
     require('dotenv').config();
-};
+};//判断是否为生产环境，影响是否报错展示更多细节
 
-console.log(process.env.SECRET);
-console.log(process.env.API_KEY);
 
 const express = require('express');
 const app = express();
@@ -27,10 +25,10 @@ const campgroudndsRoutes = require('./routes/campgrounds.js');
 const reviewsRoutes = require('./routes/reviews.js');
 
 mongoose.connect(dbUrl, {
-    useNewUrlParser: true,
+    useNewUrlParser: true,//解析
     // useCreateIndex: true,
     // useFindAndModify: false,
-    useUnifiedTopology: true
+    useUnifiedTopology: true//性能
 });
 
 const db = mongoose.connection;
@@ -43,9 +41,10 @@ db.once("open", () => {
 app.engine('ejs', ejsMate);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
+//前段展示
 
 app.use(express.urlencoded({ extended: true }));
-app.use(methodOverride('_method'));
+app.use(methodOverride('_method'));//form里面重写请求http的方法
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(mongoSanitize({
   replaceWith: '_'
