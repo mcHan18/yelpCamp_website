@@ -1,9 +1,9 @@
-# yelpCamp_website
+# CampExplorer_website
 This is the final version of my project~
 I am planning to change this porject to a new website called CAtCAmp because I have a lovely british shorthair cat called fishball!
 <div>  
-  <a href = "https://yelpcamp-119l.onrender.com">My YelpCamp</a>
-  <img width="1109" alt="image" src="https://github.com/mcHan18/yelpCamp_website/assets/55198923/121b5bf0-43a8-494b-83ef-f2b75dcf02df">
-  <img width="1109" alt="image" src="https://github.com/mcHan18/yelpCamp_website/assets/55198923/a760e4e8-3aee-4006-8ca8-1dcd831dae67">
-  <img width="1109" alt="image" src="https://github.com/mcHan18/yelpCamp_website/assets/55198923/b793c009-052d-46b1-80d5-aa4aabd02c54">
+  <a href = "https://yelpcamp-119l.onrender.com">My CampExplorer</a>
+  <img width="1109" alt="image" src="https://github.com/mcHan18/yelpCamp_website/assets/55198923/403b2078-16b5-416f-a577-a1d770e19d32">
+  <img width="1109" alt="image" src="https://github.com/mcHan18/yelpCamp_website/assets/55198923/82ab7b69-8d67-40ba-808d-d4961b775dd6">
+  <img width="1109" alt="image" src="https://github.com/mcHan18/yelpCamp_website/assets/55198923/831e9f9a-bcf0-474e-8777-53cca58f04a1">
 </div>
